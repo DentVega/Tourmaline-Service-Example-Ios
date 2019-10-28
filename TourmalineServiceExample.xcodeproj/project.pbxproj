@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02A6A74BEC171BCF3D46ADF3 /* Pods_TourmalineServiceExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A2238B5FD7F8D30F0D8C09 /* Pods_TourmalineServiceExampleTests.framework */; };
+		80E0A200A7AD0A49D9B42B59 /* Pods_TourmalineServiceExample_TourmalineServiceExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7041A996859631727F27E46 /* Pods_TourmalineServiceExample_TourmalineServiceExampleUITests.framework */; };
 		C828CF352362B54300B5463F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C828CF342362B54300B5463F /* AppDelegate.swift */; };
 		C828CF372362B54300B5463F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C828CF362362B54300B5463F /* SceneDelegate.swift */; };
 		C828CF392362B54300B5463F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C828CF382362B54300B5463F /* ContentView.swift */; };
@@ -15,6 +17,17 @@
 		C828CF412362B54900B5463F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C828CF3F2362B54900B5463F /* LaunchScreen.storyboard */; };
 		C828CF4C2362B54900B5463F /* TourmalineServiceExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C828CF4B2362B54900B5463F /* TourmalineServiceExampleTests.swift */; };
 		C828CF572362B54900B5463F /* TourmalineServiceExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C828CF562362B54900B5463F /* TourmalineServiceExampleUITests.swift */; };
+		C8957F572366E135007A172E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8957F562366E134007A172E /* SystemConfiguration.framework */; };
+		C8957F592366E141007A172E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8957F582366E141007A172E /* CoreMotion.framework */; };
+		C8957FA32367040E007A172E /* TLKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8957FA22367040E007A172E /* TLKitManager.m */; };
+		C8957FA523670445007A172E /* TLBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8957FA423670445007A172E /* TLBridge.swift */; };
+		C8957FA62367078A007A172E /* TLKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8957FA22367040E007A172E /* TLKitManager.m */; };
+		C8957FA72367078B007A172E /* TLKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8957FA22367040E007A172E /* TLKitManager.m */; };
+		C8957FA82367078D007A172E /* TLBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8957FA423670445007A172E /* TLBridge.swift */; };
+		C8957FA92367078D007A172E /* TLBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8957FA423670445007A172E /* TLBridge.swift */; };
+		C8957FAB236707E7007A172E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8957FAA236707E7007A172E /* CoreLocation.framework */; };
+		C8957FAD236707EC007A172E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8957FAC236707EC007A172E /* Security.framework */; };
+		C8957FAF23670804007A172E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C8957FAE23670804007A172E /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05E4EE079C92A74899B880B9 /* Pods-TourmalineServiceExample-TourmalineServiceExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourmalineServiceExample-TourmalineServiceExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-TourmalineServiceExample-TourmalineServiceExampleUITests/Pods-TourmalineServiceExample-TourmalineServiceExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		24A2238B5FD7F8D30F0D8C09 /* Pods_TourmalineServiceExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TourmalineServiceExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2670DBE04DE9B5F3BC8D985D /* Pods-TourmalineServiceExample-TourmalineServiceExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourmalineServiceExample-TourmalineServiceExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-TourmalineServiceExample-TourmalineServiceExampleUITests/Pods-TourmalineServiceExample-TourmalineServiceExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EA033F8AFFB53CE4B1A8274 /* Pods-TourmalineServiceExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourmalineServiceExample.debug.xcconfig"; path = "Target Support Files/Pods-TourmalineServiceExample/Pods-TourmalineServiceExample.debug.xcconfig"; sourceTree = "<group>"; };
+		94C5B8F2E3FDC145351BAAFB /* Pods-TourmalineServiceExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourmalineServiceExampleTests.release.xcconfig"; path = "Target Support Files/Pods-TourmalineServiceExampleTests/Pods-TourmalineServiceExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		980E2A454D477C3349AEA4EF /* Pods_TourmalineServiceExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TourmalineServiceExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2180656D200A96954E7DF8 /* Pods-TourmalineServiceExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourmalineServiceExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-TourmalineServiceExampleTests/Pods-TourmalineServiceExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8540C2934DAA56BFC7B619B /* Pods-TourmalineServiceExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourmalineServiceExample.release.xcconfig"; path = "Target Support Files/Pods-TourmalineServiceExample/Pods-TourmalineServiceExample.release.xcconfig"; sourceTree = "<group>"; };
 		C828CF312362B54300B5463F /* TourmalineServiceExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourmalineServiceExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C828CF342362B54300B5463F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C828CF362362B54300B5463F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +70,15 @@
 		C828CF522362B54900B5463F /* TourmalineServiceExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourmalineServiceExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C828CF562362B54900B5463F /* TourmalineServiceExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourmalineServiceExampleUITests.swift; sourceTree = "<group>"; };
 		C828CF582362B54900B5463F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8957F562366E134007A172E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C8957F582366E141007A172E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C8957F9E23670349007A172E /* TLKitManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLKitManager.h; sourceTree = "<group>"; };
+		C8957FA22367040E007A172E /* TLKitManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLKitManager.m; sourceTree = "<group>"; };
+		C8957FA423670445007A172E /* TLBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLBridge.swift; sourceTree = "<group>"; };
+		C8957FAA236707E7007A172E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C8957FAC236707EC007A172E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C8957FAE23670804007A172E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D7041A996859631727F27E46 /* Pods_TourmalineServiceExample_TourmalineServiceExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TourmalineServiceExample_TourmalineServiceExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8957FAF23670804007A172E /* libz.tbd in Frameworks */,
+				C8957FAD236707EC007A172E /* Security.framework in Frameworks */,
+				C8957FAB236707E7007A172E /* CoreLocation.framework in Frameworks */,
+				C8957F572366E135007A172E /* SystemConfiguration.framework in Frameworks */,
+				C8957F592366E141007A172E /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A6A74BEC171BCF3D46ADF3 /* Pods_TourmalineServiceExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +106,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E0A200A7AD0A49D9B42B59 /* Pods_TourmalineServiceExample_TourmalineServiceExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		716E25FE30A13044CCBB2A07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8957FAE23670804007A172E /* libz.tbd */,
+				C8957FAC236707EC007A172E /* Security.framework */,
+				C8957FAA236707E7007A172E /* CoreLocation.framework */,
+				C8957F582366E141007A172E /* CoreMotion.framework */,
+				C8957F562366E134007A172E /* SystemConfiguration.framework */,
+				980E2A454D477C3349AEA4EF /* Pods_TourmalineServiceExample.framework */,
+				D7041A996859631727F27E46 /* Pods_TourmalineServiceExample_TourmalineServiceExampleUITests.framework */,
+				24A2238B5FD7F8D30F0D8C09 /* Pods_TourmalineServiceExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		906B55A3579B1756EB18B003 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EA033F8AFFB53CE4B1A8274 /* Pods-TourmalineServiceExample.debug.xcconfig */,
+				B8540C2934DAA56BFC7B619B /* Pods-TourmalineServiceExample.release.xcconfig */,
+				2670DBE04DE9B5F3BC8D985D /* Pods-TourmalineServiceExample-TourmalineServiceExampleUITests.debug.xcconfig */,
+				05E4EE079C92A74899B880B9 /* Pods-TourmalineServiceExample-TourmalineServiceExampleUITests.release.xcconfig */,
+				9F2180656D200A96954E7DF8 /* Pods-TourmalineServiceExampleTests.debug.xcconfig */,
+				94C5B8F2E3FDC145351BAAFB /* Pods-TourmalineServiceExampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C828CF282362B54300B5463F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +148,8 @@
 				C828CF4A2362B54900B5463F /* TourmalineServiceExampleTests */,
 				C828CF552362B54900B5463F /* TourmalineServiceExampleUITests */,
 				C828CF322362B54300B5463F /* Products */,
+				906B55A3579B1756EB18B003 /* Pods */,
+				716E25FE30A13044CCBB2A07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +173,9 @@
 				C828CF3F2362B54900B5463F /* LaunchScreen.storyboard */,
 				C828CF422362B54900B5463F /* Info.plist */,
 				C828CF3C2362B54900B5463F /* Preview Content */,
+				C8957F9E23670349007A172E /* TLKitManager.h */,
+				C8957FA22367040E007A172E /* TLKitManager.m */,
+				C8957FA423670445007A172E /* TLBridge.swift */,
 			);
 			path = TourmalineServiceExample;
 			sourceTree = "<group>";
@@ -143,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C828CF5B2362B54900B5463F /* Build configuration list for PBXNativeTarget "TourmalineServiceExample" */;
 			buildPhases = (
+				DB667AAD7BE8DF35E7B0A335 /* [CP] Check Pods Manifest.lock */,
 				C828CF2D2362B54300B5463F /* Sources */,
 				C828CF2E2362B54300B5463F /* Frameworks */,
 				C828CF2F2362B54300B5463F /* Resources */,
@@ -160,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C828CF5E2362B54900B5463F /* Build configuration list for PBXNativeTarget "TourmalineServiceExampleTests" */;
 			buildPhases = (
+				09BA371BBB8968202B77D1C2 /* [CP] Check Pods Manifest.lock */,
 				C828CF432362B54900B5463F /* Sources */,
 				C828CF442362B54900B5463F /* Frameworks */,
 				C828CF452362B54900B5463F /* Resources */,
@@ -178,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C828CF612362B54900B5463F /* Build configuration list for PBXNativeTarget "TourmalineServiceExampleUITests" */;
 			buildPhases = (
+				094D13FA3B43989C1B3ABE3D /* [CP] Check Pods Manifest.lock */,
 				C828CF4E2362B54900B5463F /* Sources */,
 				C828CF4F2362B54900B5463F /* Frameworks */,
 				C828CF502362B54900B5463F /* Resources */,
@@ -204,6 +277,7 @@
 				TargetAttributes = {
 					C828CF302362B54300B5463F = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 					C828CF462362B54900B5463F = {
 						CreatedOnToolsVersion = 11.1;
@@ -262,6 +336,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		094D13FA3B43989C1B3ABE3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TourmalineServiceExample-TourmalineServiceExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09BA371BBB8968202B77D1C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TourmalineServiceExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB667AAD7BE8DF35E7B0A335 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TourmalineServiceExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C828CF2D2362B54300B5463F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -269,6 +412,8 @@
 			files = (
 				C828CF352362B54300B5463F /* AppDelegate.swift in Sources */,
 				C828CF372362B54300B5463F /* SceneDelegate.swift in Sources */,
+				C8957FA32367040E007A172E /* TLKitManager.m in Sources */,
+				C8957FA523670445007A172E /* TLBridge.swift in Sources */,
 				C828CF392362B54300B5463F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +422,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8957FA82367078D007A172E /* TLBridge.swift in Sources */,
+				C8957FA62367078A007A172E /* TLKitManager.m in Sources */,
 				C828CF4C2362B54900B5463F /* TourmalineServiceExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +432,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8957FA92367078D007A172E /* TLBridge.swift in Sources */,
+				C8957FA72367078B007A172E /* TLKitManager.m in Sources */,
 				C828CF572362B54900B5463F /* TourmalineServiceExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,6 +519,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -423,6 +573,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-all_load";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -432,8 +583,10 @@
 		};
 		C828CF5C2362B54900B5463F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA033F8AFFB53CE4B1A8274 /* Pods-TourmalineServiceExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TourmalineServiceExample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -442,8 +595,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = bvega.TourmalineServiceExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,8 +606,10 @@
 		};
 		C828CF5D2362B54900B5463F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8540C2934DAA56BFC7B619B /* Pods-TourmalineServiceExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TourmalineServiceExample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -461,6 +618,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = bvega.TourmalineServiceExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -470,6 +628,7 @@
 		};
 		C828CF5F2362B54900B5463F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F2180656D200A96954E7DF8 /* Pods-TourmalineServiceExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +650,7 @@
 		};
 		C828CF602362B54900B5463F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C5B8F2E3FDC145351BAAFB /* Pods-TourmalineServiceExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +672,7 @@
 		};
 		C828CF622362B54900B5463F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2670DBE04DE9B5F3BC8D985D /* Pods-TourmalineServiceExample-TourmalineServiceExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -520,6 +681,31 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"-all_load",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"-objC",
+					"\"TLKit\"",
+					"-framework",
+					"\"UIKit\"",
+					"-lm",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bvega.TourmalineServiceExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -531,6 +717,7 @@
 		};
 		C828CF632362B54900B5463F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E4EE079C92A74899B880B9 /* Pods-TourmalineServiceExample-TourmalineServiceExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

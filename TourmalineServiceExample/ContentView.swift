@@ -17,11 +17,6 @@ struct ContentView: View {
                         Text("Start Service")
                     }
                 }
-                Section {
-                    Button(action: startServiceInBackground) {
-                        Text("start service in background")
-                    }
-                }
             }
             .navigationBarTitle(Text("Tourmaline Service Example"))
         }
@@ -29,11 +24,9 @@ struct ContentView: View {
 }
 
 func startService() {
-    
-}
-
-func startServiceInBackground() {
-    
+    let user: String = "User"
+    let service: TLBridge = TLBridge()
+    service.startTLKit(user)
 }
 
 struct ContentView_Previews: PreviewProvider {
